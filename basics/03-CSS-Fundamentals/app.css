@@ -1,0 +1,67 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: sans-serif;
+}
+h1,
+h2,
+h3 {
+    color: #1098ad;
+}
+h1 {
+    font-size: 2.6rem;
+
+    text-transform: uppercase;
+    font-style: normal;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+li {
+    font-size: 2rem;
+    color: #444;
+}
+
+footer p {
+    font-size: 1.6rem;
+}
+
+#author {
+    font-style: italic;
+    font-size: 1.8rem;
+}
+.related-author {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.main-header {
+    background-color: #f7f7f7;
+}
+
+aside {
+    background-color: #f7f7f7;
+    border: 5px solid #1098ad;
+}
+
+li:first-child {
+    font-weight: bold;
+}

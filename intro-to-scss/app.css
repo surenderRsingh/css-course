@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  margin: 3rem;
+  font-size: 1.6rem;
+  background-color: #f9ed59;
+}
+
+.navigation {
+  list-style: none;
+  float: left;
+}
+.navigation li {
+  display: inline-block;
+  margin-left: 3rem;
+}
+.navigation li:first-child {
+  margin: 0;
+}
+.navigation li a:link,
+.navigation li a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 1.6rem;
+}
+
+.buttons {
+  float: right;
+}
+
+/*# sourceMappingURL=app.css.map */

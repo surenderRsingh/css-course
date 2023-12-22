@@ -1,0 +1,47 @@
+*,
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+}
+
+$color-primary: #f9ed59; //yellow
+$color-secondary: #f08a5d; //#orange
+$color-tertiary: #b83b5e; //pink
+$color-text-dark: #333;
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  margin: 3rem;
+  font-size: 1.6rem;
+  background-color: $color-primary; 
+}
+
+.navigation {
+  list-style: none;
+  float: left;
+  // text-align: center;
+  li {
+    display: inline-block;
+    margin-left: 3rem;
+    
+    &:first-child {
+     margin:0; 
+    }
+    
+    a:link,
+    a:visited{
+      text-decoration: none;
+      text-transform: uppercase;
+      color: $color-text-dark;
+      font-size: 1.6rem;
+    }
+  }
+  
+}
+
+.buttons {
+  float: right;
+}
